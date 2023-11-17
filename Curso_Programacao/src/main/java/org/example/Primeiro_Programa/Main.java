@@ -18,8 +18,9 @@ public class Main {
 
         System.out.println("insira um texto");//saida de dados
 
-        texto = Sc.next();//entrada de dados
+        texto = Sc.nextLine();//entrada de dados
+        Sc.close();
 
-        System.out.println("o texto escrito foi : " + texto);//saida de dados
+        System.out.println("o texto escrito foi : " + texto );//saida de dados
     }
 }
