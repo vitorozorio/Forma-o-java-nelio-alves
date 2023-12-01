@@ -5,6 +5,12 @@ public class EntradaESaida {
 
     public static void main(String[] args){
 
+    escreva();
+
+    }
+
+
+    public static void escreva(){
         String product1 = "computer";
         String product2 = "office desk";
 
@@ -23,10 +29,6 @@ public class EntradaESaida {
         System.out.printf("\nRouded (three decimal places): %.3f", measure);
         Locale.setDefault(Locale.US);
         System.out.printf("\nUS decimal point : %.3f ", measure);
-
-
-
-
     }
 
 }
