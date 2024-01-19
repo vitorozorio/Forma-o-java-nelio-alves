@@ -24,11 +24,9 @@ public class DaoFuncionario implements ListOperation {
     }
 
     @Override
-    public void Delete() {
+    public void Delete(int teste) {
 
         //olá mundo
-
-
     }
 
 }
