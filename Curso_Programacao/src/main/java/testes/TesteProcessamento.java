@@ -1,4 +1,4 @@
-package testeProcessamento;
+package testes;
 
 public class TesteProcessamento {
 
@@ -22,6 +22,10 @@ public class TesteProcessamento {
         b1 = 2;
         resultado = (double) a / b1; // casting
         System.out.println(resultado);
+
+
+         int n = 0;
+         double[] vect = new double[n];
 
 
     }

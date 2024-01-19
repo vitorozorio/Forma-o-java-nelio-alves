@@ -2,8 +2,9 @@ package org.example.testes;
 import org.example.model.AreaRetangulo;
 import org.example.model.SalarioFuncionario;
 import org.example.model.NotaAluno;
+import org.example.model.CurrencyConverter;
 
-public class Testes {
+public class   Testes {
 
     public static void main(String[] args) {
 
@@ -15,12 +16,14 @@ public class Testes {
          *
          **/
 
-        SalarioFuncionario vitor = new SalarioFuncionario("vitor",4600,500);
-        NotaAluno Vitor = new NotaAluno("vitor",30,40, 10);
+        //SalarioFuncionario vitor = new SalarioFuncionario("vitor",4600,500);
+       // NotaAluno Vitor = new NotaAluno("vitor",30,40, 10);
 
         //System.out.println(vitor);
 
-        Vitor.testeNotas();
+        //Vitor.testeNotas();
+
+        System.out.println(CurrencyConverter.converterDollar(200));
 
 
 

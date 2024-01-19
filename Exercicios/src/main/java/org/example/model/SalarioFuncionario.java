@@ -1,5 +1,7 @@
 package org.example.model;
 
+import java.util.Scanner;
+
 public class SalarioFuncionario {
 
     private String name;
@@ -22,8 +24,14 @@ public class SalarioFuncionario {
         return netSalary() + grossSalary * increment;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
     @Override
     public String toString() {
         return "Salario :" + netSalary();
     }
+
+
 }
